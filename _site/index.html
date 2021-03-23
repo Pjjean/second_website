@@ -1,47 +1,11 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-  <title>Test Page: Don't Panic</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="/css/main.css">
-</head>
-
-
-  <body>
-
-    
-<header class="header">
-  <nav>
-    <ul class="header-nav nav-links">
-      <li><a href="/">Home</a></li>
-<li><a href="#">Nav 1</a></li>
-<li><a href="#">Nav 2</a></li>
-<li><a href="#">Nav 3</a></li>
-
-    </ul>
-  </nav>
-  <!-- "/" meaning index page's absolute path -->
-  <a href="/" class="header-logo">
-    <img src="/images/logo.png" alt="logo">
-  </a>
-</header>
-
-
-    <div class="full-hero hero-home">
+---
+layout: default
+---
+<div class="full-hero hero-home">
   <div class="hero-content">
-    <h1>code dangerously</h1>
+    <h1>sample website</h1>
     <ul class="social-list">
-      <li>
-  <a href="https://example.com/" class="social-link">FB</a>
-</li>
-<li>
-  <a href="https://example.com/" class="social-link">TW</a>
-</li>
-<li>
-  <a href="https://example.com/" class="social-link">GH</a>
-</li>
-
+      {% include social-links.html %}
     </ul>
   </div>
 </div>
@@ -114,35 +78,3 @@
     </div>
   </div>
 </div>
-
-
-    <footer class="footer">
-  <a href="/" class="footer-logo">
-    <img src="/images/logo.png" alt="logo">
-  </a>
-  <nav>
-    <ul class="footer-nav nav-links">
-      <li><a href="/">Home</a></li>
-<li><a href="#">Nav 1</a></li>
-<li><a href="#">Nav 2</a></li>
-<li><a href="#">Nav 3</a></li>
-
-    </ul>
-  </nav>
-  <h3>JP <span>Design</span></h3>
-  <div class="social-list">
-    <li>
-  <a href="https://example.com/" class="social-link">FB</a>
-</li>
-<li>
-  <a href="https://example.com/" class="social-link">TW</a>
-</li>
-<li>
-  <a href="https://example.com/" class="social-link">GH</a>
-</li>
-
-  </div>
-</footer>
-
-  </body>
-</html>
