@@ -1,5 +1,10 @@
 <head>
-  <title>Jean's Website</title>
+  {% if page.title %}
+    <title>{{ page.title }} | Test Page</title>
+  {% else %}
+    <title>Jean's Website</title>
+  {% endif %}
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/main.css">
 </head>
